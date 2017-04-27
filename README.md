@@ -1,7 +1,10 @@
 # protocol-buffers-example
 
-To compile the proto file:  
-`$ protoc -I=. --cpp_gout=. csv.proto`  
+To compile the proto file for C++:  
+`$ protoc -I=. --cpp_out=. csv.proto`  
+
+To compile the protofile for Python:
+`$protoc -I=. --python_out=. csv.proto`  
 
 To compile the cpp files:  
 `$ g++ -c -I$STOW_PKGS_GLOBAL_PREFIX/include -o csv_example.o csv_example.cpp`  
