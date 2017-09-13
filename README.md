@@ -1,5 +1,7 @@
 # protocol-buffers-example
 
+(For use on BRG servers)
+
 To compile the .proto file for C++:  
 `$ protoc -I=. --cpp_out=. datafile.proto`  
 
